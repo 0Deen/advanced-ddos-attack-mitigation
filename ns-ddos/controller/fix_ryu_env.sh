@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Delete old virtual environment if it exists
+rm -rf ddos-env
+
+# Create a clean virtual environment
+python3 -m venv ddos-env
+source ddos-env/bin/activate
+
+# Upgrade pip and install compatible versions
+pip install --upgrade pip
+pip install ryu eventlet==0.30.2
+
+# Confirm version
+pip show eventlet | grep Version
