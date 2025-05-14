@@ -84,14 +84,17 @@ The [`ns-ddos`](Commands.txt) file utilizes the trained machine learning model t
 ## Results
 ### Project Snapshots
 <table>
+
    <tr>
       <th>Dashboard</th>
       <th>DDoS Protect</th>
    </tr>
+
    <tr>
       <td><img width="397" alt="image" src="https://github.com/user-attachments/assets/8441ae89-b72a-4f68-8742-1937496cd8f1"></td>
       <td><img width="385" alt="image" src="https://github.com/user-attachments/assets/32ed02e9-bbea-41d3-aa03-a8405ed63da0"></td>
    </tr>
+
    <tr>
       <th>Metric Browser</th>
       <th>Data Flow Test</th>
